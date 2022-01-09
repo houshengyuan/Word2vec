@@ -12,11 +12,13 @@ This project implements eight different versions of word2vec, including:
 ## Environmental Requirements:
   
 * Python Version >= 3.6
-* Numpy
+* Numpy   
 * Scipy  
   
 ## Task:
   
 * Description:    
-* test1:
-*
+* test1: Debug on dataset 'data/debug.txt'. 
+* test2: Train model on dataset 'data/treebank.txt'. 
+* test3: Test on whole testset w.r.t Pearson and Spearman Correlation.
+* test4: Test performance on frequent/rare word pairs inn testing set.
