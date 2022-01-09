@@ -24,6 +24,17 @@ This project implements eight different versions of word2vec, including:
   
 ## Options
   
+* --seed: seed for numpy and random package default:42
+* --vector-dim: embedding dim for hidden space and word vector default:12
+* --window-size: context window size default:4
+* --epoch: training epoch default:10
+* --learning-rate: learning rate default:1e-2
+* --task: model choice in \[skip-gram,cbow\] default:cbow
+* --hierarchical: option for hierarchical softmax
+* --neg: option for negative sampling
+* --sample-size: size for negative sampling default:10
+* --sub-sampling: option for subsampling of frequent words
+* --subsample-thr: threshold for subsampling of frequent words default:1e-3
 
 ## Test Examples
   
